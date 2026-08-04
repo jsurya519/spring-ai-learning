@@ -1,5 +1,8 @@
 package spring.ai.learning.OpenAI.util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CosineSimilarityCalculator {
 
     public static double calculate(float[] vector1, float[] vector2) {
@@ -26,4 +29,6 @@ public class CosineSimilarityCalculator {
 
         return dotProduct / (magnitude1 * magnitude2);
     }
+
+
 }
